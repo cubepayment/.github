@@ -10,5 +10,5 @@ Join our vibrant community and unlock exceptional opportunities for collaboratio
 
 ----
 
-<sub>© Copyright 2020 by Cube Payment Services Pte Ltd ("CubePay"). All rights reserved. CubePay is incorporated in Singapore.
-Company Registration: 201403040W. "CubePay", "RadiumOne" and the respective brand marks are registered trademarks of CubePay.</sub>
+<sub>© Copyright 2020 by Cube Payment Services Pte Ltd ("CubePay"). All rights reserved. CubePay is incorporated in Singapore.</sub>
+<sub>Company Registration: 201403040W. "CubePay", "RadiumOne" and the respective brand marks are registered trademarks of CubePay.</sub>
