@@ -1,35 +1,61 @@
-# 
+# CubePay — Legacy GitHub Organization
 
-<p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="CubePay repository moved to github.com/cubepay" />
-</p>
+## Purpose
 
-<p align="center">
-  <strong>This is a legacy GitHub organization.</strong><br/>
-  Active development has moved to <a href="https://github.com/cubepay">github.com/cubepay</a>
-</p>
+This GitHub organization (`cubepayment`) is retained for:
+
+- brand / namespace protection
+- preservation of historical references
+- controlled redirection to the official organization (`cubepay`)
+
+This organization is **not used for active development**.
 
 ---
 
-## 🚀 Use the official org
+## Official Organization
+
+All active work must be conducted in:
 
 👉 https://github.com/cubepay
 
-All maintained repositories, packages, and documentation live there.
+---
+
+## Governance Rules
+
+### 🚫 Not Allowed
+
+- Creating new repositories  
+- Merging pull requests  
+- Accepting external contributions  
+- Publishing packages from this org  
+- Using this org for any active integration or deployment  
+
+### ✅ Allowed
+
+- Maintaining redirect README files  
+- Archiving repositories  
+- Updating links to point to the official org  
+- Security-related interventions (e.g. takedown, abuse prevention)  
 
 ---
 
-## ⚠️ Status of this org
+## Repository Management
 
-- No active development  
-- Issues and PRs are not monitored  
-- Repositories may be outdated or deprecated  
+All repositories in this organization should:
 
-This org is retained for namespace protection and legacy references only.
+1. Be marked as **archived** (where applicable)  
+2. Contain a redirect notice in `README.md`  
+3. Have:
+   - Issues **disabled** (if possible), or
+   - A pinned notice stating they are not monitored  
+
+4. Avoid having active branches beyond `main` (or default branch)
 
 ---
 
-## 🔧 Update your remotes
+## Redirect Standard
 
-```bash
-git remote set-url origin https://github.com/cubepay/<repo>
+Each repository must include a clear redirect:
+
+```markdown
+> ⚠️ This repository has moved to https://github.com/cubepay/<repo>
