@@ -1,0 +1,93 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Accent gradient -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+
+    <!-- Radial glow -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Arrow -->
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#22d3ee"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+
+  <!-- Ambient glow -->
+  <circle cx="600" cy="160" r="220" fill="url(#glow)"/>
+
+  <!-- Floating particles -->
+  <g fill="#22d3ee" opacity="0.4">
+    <circle cx="500" cy="120" r="2"/>
+    <circle cx="650" cy="200" r="2"/>
+    <circle cx="720" cy="140" r="1.5"/>
+    <circle cx="560" cy="210" r="1.5"/>
+    <circle cx="680" cy="90" r="1.5"/>
+  </g>
+
+  <!-- Left (old org) -->
+  <g>
+    <rect x="160" y="110" width="220" height="100" rx="16" fill="#1e293b"/>
+    <text x="270" y="160" text-anchor="middle" fill="#94a3b8" font-size="16" font-family="Inter, Arial, sans-serif">
+      cubepayment
+    </text>
+    <text x="270" y="185" text-anchor="middle" fill="#64748b" font-size="12" font-family="Inter, Arial, sans-serif">
+      legacy
+    </text>
+  </g>
+
+  <!-- Right (new org) -->
+  <g>
+    <rect x="820" y="110" width="220" height="100" rx="16" fill="url(#accent)"/>
+    <text x="930" y="160" text-anchor="middle" fill="white" font-size="16" font-family="Inter, Arial, sans-serif">
+      cubepay
+    </text>
+    <text x="930" y="185" text-anchor="middle" fill="#e0f2fe" font-size="12" font-family="Inter, Arial, sans-serif">
+      active
+    </text>
+  </g>
+
+  <!-- Curved motion path -->
+  <path d="M400 160 C520 80, 680 240, 800 160"
+        stroke="url(#accent)"
+        stroke-width="4"
+        fill="none"
+        marker-end="url(#arrow)"
+        stroke-linecap="round"/>
+
+  <!-- Flow lines -->
+  <path d="M400 140 C520 60, 680 220, 800 140"
+        stroke="url(#accent)"
+        stroke-width="2"
+        opacity="0.3"
+        fill="none"/>
+  <path d="M400 180 C520 100, 680 260, 800 180"
+        stroke="url(#accent)"
+        stroke-width="2"
+        opacity="0.2"
+        fill="none"/>
+
+  <!-- Title -->
+  <text x="600" y="70" text-anchor="middle" fill="white" font-size="26" font-family="Inter, Arial, sans-serif">
+    We’ve Moved
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="95" text-anchor="middle" fill="#94a3b8" font-size="14" font-family="Inter, Arial, sans-serif">
+    github.com/cubepay
+  </text>
+</svg>
