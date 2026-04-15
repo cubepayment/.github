@@ -33,3 +33,9 @@ This org is retained for namespace protection and legacy references only.
 
 ```bash
 git remote set-url origin https://github.com/cubepay/<repo>
+```
+
+----
+
+<sub>© Copyright 2020 by Cube Payment Services Pte Ltd ("CubePay"). All rights reserved. CubePay is incorporated in Singapore.</sub><br/>
+<sub>Company Registration: 201403040W. "CubePay", "RadiumOne" and the respective brand marks are registered trademarks of CubePay.</sub>
